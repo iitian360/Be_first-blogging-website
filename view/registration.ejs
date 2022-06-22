@@ -1,0 +1,46 @@
+<%- include('./partials/header.ejs') %>
+    <link rel="stylesheet" href="/style/registration.css">
+    <%- include('./partials/navbar.ejs') %>
+    <div class="container">
+        <div class="primary">
+            <div class="secondary image">
+                <div class="layer">
+                    <p class="head">Lorem ipsum dolor sit amet<br> consectetur adipisicing.</p>
+                    <p class="txt">Lorem ipsum, dolor sit amet consectetur adipisicing<br> elit. Aliquam, consequatur?
+                    </p>
+
+                </div>
+            </div>
+            <div class="secondary">
+                <div class="logo">
+                    <img src="/icons/profile.png" alt="">
+                </div>
+                <p class="heading">Register</p>
+                <div class="form">
+                    <form action="#" method="post">
+                        <div class="form_elm">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your name">
+                        </div>
+                        <div class="form_elm">
+                            <label for="email">Email Id</label>
+                            <input type="email" id="email" name="email" required placeholder="abc123@xyz.com">
+                        </div>
+                        <div class="form_elm">
+                            <label for="tel">Phone number</label>
+                            <input type="tel" id="tel" name="tel" required>
+                        </div>
+                        <div class="form_elm">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        
+                        <button type="submit">Register</button>
+                        <p class="txt">Already have an account?, <a href="#">login</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/javascript/all.js"></script>
+ <%- include('./partials/footer.ejs') %>

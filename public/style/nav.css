@@ -1,0 +1,195 @@
+/*  font-family: 'Baloo Bhaina 2', cursive;
+font-family: 'Dancing Script', cursive; */
+body {
+    padding: 0;
+    margin: 0;
+    /* background-color: black; */
+
+    /* background: #0f0c29; */
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #24243e, #302b63, #0f0c29); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* navbar styling */
+.navbar {
+    display: flex;
+    z-index: 10;
+    /* align-items: flex-start; */
+    background: white;
+    flex-direction: column;
+    box-shadow: rgb(8, 1, 47) 0px 3px 6px, rgb(1, 3, 78) 0px 3px 6px;
+
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
+
+
+
+
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.nav_item {
+    list-style: none;
+}
+
+.nav_link {
+    margin: 0px 30px;
+
+}
+
+.nav_link a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    transition: .5s;
+}
+
+.nav_link a:hover {
+    transition: .5s all ease-out;
+    color: orangered;
+}
+
+/* button styling */
+.btn_nav {
+    padding: 3px 8px;
+    margin: 0px 3px 0 0px;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+    /* color: green; */
+    border-radius: 5px;
+    transition: .88s;
+    cursor: pointer;
+}
+
+.btn_log {
+    color: green;
+}
+
+.btn_log:hover {
+    transition: .8s all ease;
+    background-color: green;
+    color: white;
+}
+
+.btn_reg {
+    background-color: rgb(24, 93, 240);
+    color: white;
+    transition: .8s;
+}
+
+.btn_reg:hover {
+    transition: .8s all ease;
+    background: white;
+    color: blue;
+}
+
+/* search bar */
+.form_ {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.form_ form input {
+    border: none;
+    outline: none;
+    text-align: center;
+    resize: none;
+    padding: 8px 3px;
+    border-radius: 20px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.form_ form button{
+    padding: 10px 12px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 20px;
+}
+.fa-magnifying-glass{
+ color: white;
+   
+}
+
+.social_ {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social_ a {
+    text-decoration: none;
+    /* color: rgba(2, 2, 2, 0.804); */
+    margin: 0px 13px;
+
+}
+
+.fa-facebook-f, .fa-instagram ,.fa-twitter{
+    width:50px;
+    color: gray;
+}
+/* *********************logo design**************8 */
+.logo_ {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_ img {
+    width: 20%;
+}
+
+/***************************** universal class*************************/
+.d_flx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.row {
+    flex-direction: row;
+}
+
+.clm {
+    flex-direction: column;
+}
+
+.font1 {
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.font2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.head {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+::selection{
+    color: white;
+    background-color: green;
+}

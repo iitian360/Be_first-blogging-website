@@ -1,0 +1,60 @@
+.foot {
+    width: 100%;
+    background: #232526;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #232526, #414345);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #232526, #414345);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.foot_container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    /* background-color: rgba(42, 74, 39, 0.751); */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.foot_sec {
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.foot1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.foot_item {
+    margin: 3px 5px;
+    list-style: none;
+}
+
+.foot_head {
+    color: greenyellow;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    padding: 8px 0px;
+}
+
+.foot_link {
+    color: white;
+    font-size: 15px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    line-height: 18px;
+    opacity: .9;
+}
+.delta{
+    color:white;
+    margin: 2px 4px;
+}

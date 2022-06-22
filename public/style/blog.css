@@ -1,0 +1,158 @@
+ /* text and heading styling */
+                /* font-family: 'Baloo 2', cursive;
+                font-family: 'Baloo Bhaina 2', cursive;
+                font-family: 'Dancing Script', cursive;
+                font-family: 'Merriweather', serif; */
+                .head_ {
+                    color: wheat;
+                    text-align: center;
+                    font-size: 50px;
+                    font-family: 'Baloo 2', cursive;
+                    /* line-height:1.5em; */
+
+                }
+
+                .hd_txt {
+                    color: wheat;
+                    opacity: .5;
+                    font-size: 25px;
+                    transition: .8s;
+                }
+
+                .txt_color {
+                    color: black;
+                    opacity: .8;
+                }
+
+                .heading_ {
+                    color: black;
+                    font-family: 'Merriweather', serif;
+                    font-size: 25px;
+                }
+
+                .airticle {
+                    color: white;
+                    font-size: 22px;
+                    text-align: center;
+
+                }
+
+                /* main container styling */
+                .main_container {
+                    width: 100%;
+                    position: relative;
+                    display: flex;
+                    /* align-items: center; */
+                    /* justify-content: center; */
+                    flex-direction: column;
+                    /* height: 110vh; */
+                    overflow: hidden;
+                }
+
+                /* first background container container */
+                .bg_container {
+                    position: relative;
+                    width: 100%;
+                    height: 80vh;
+                    background: url('/images/blog_bg_main.jpg')no-repeat center center/cover;
+                }
+
+                .layer {
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(32, 32, 33, 0.653);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                }
+
+                /* blog containing div */
+                .sec_container {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+
+                }
+
+                .material {
+                    width: 70%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-wrap: wrap;
+
+
+                }
+
+                /* blog box styling */
+                .item_box {
+                    width: 26%;
+                    height: 200px;
+                    margin: 10px;
+                    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+                }
+
+                #techno {
+                    background: url('/images/techno.jpg')no-repeat center center/cover;
+                }
+
+                #art {
+                    background: url('/images/art.jpg')no-repeat center center/cover;
+                }
+
+                #relation {
+                    background: url('/images/relation.jpg')no-repeat center center/cover;
+                }
+
+                #life {
+                    background: url('/images/lifestyle.jpg')no-repeat center center/cover;
+                }
+
+                #travel {
+                    background: url('/images/travel.jpg')no-repeat center center/cover;
+                }
+
+                #health {
+                    background: url('/images/health.jpg')no-repeat center center/cover;
+                }
+
+                #edu {
+                    background: url('/images/education.jpg')no-repeat center center/cover;
+                }
+
+                #fashion {
+                    background: url('/images/fashion.jpg')no-repeat center center/cover;
+                }
+
+
+
+                /* layer styling */
+                .mat_layer {
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    /* background-color: rgba(79, 77, 80, 0.653); */
+                    flex-direction: column;
+                    transition: .5s all ease-in-out;
+                }
+                .item_box a{
+                    text-decoration: none;
+                }
+
+                .mat_layer:hover {
+                    transition: .5s;
+                    background-color: rgba(41, 41, 41, 0.963);
+
+                }
+
+                .mat_layer:hover .hd_txt {
+                    opacity: 1;
+                }

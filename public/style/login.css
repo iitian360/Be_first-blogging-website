@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500&family=Dancing+Script:wght@400;500&display=swap');
+/*  font-family: 'Baloo Bhaina 2', cursive;
+       font-family: 'Dancing Script', cursive; */
+body {
+   padding: 0;
+   margin: 0;
+   background: #0f0c29;
+   /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+   /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   /* background-color: greenyellow; */
+   animation: fadeInAnimation ease 3s;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+
+}
+
+.container {
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   /* background: gray; */
+   height: 100vh;
+}
+
+.primary {
+   /* background-color: white; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 60%;
+   height: 80vh;
+  
+   box-shadow: rgb(8, 1, 47) 0px 3px 6px, rgb(1, 3, 78) 0px 3px 6px;
+   /* padding: 5px; */
+}
+
+.main {
+   width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-color: whitesmoke;
+   height: 100%;
+   /* border-radius: 10px; */
+
+}
+.head{
+   font-family: 'Dancing Script', cursive;
+   font-weight: 900;
+   color: blueviolet;
+   padding: 0;
+   margin: 0;
+}
+
+.main .form {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   width: 100%;
+   font-family: 'Baloo Bhaina 2',cursive;
+}
+
+.form form {
+   width: 70%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding: 5px;
+}
+
+.form_elm {
+   width: 100%;
+   /* background-color: gray; */
+   display: flex;
+   /* align-items: center;
+   justify-content: center; */
+   flex-direction: column;
+}
+
+.form_elm input {
+
+   background: inherit;
+   outline: none;
+   border: none;
+   border-bottom: 1.5px solid rgb(42, 40, 40);
+   color: blueviolet;
+   padding: 5px 0px;
+
+}
+
+.first {
+   background: url("/images/login.jpg")center center/cover;
+   font-family: 'Dancing Script', cursive;
+   /* border-radius: 10px; */
+}
+
+.layer {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(24, 23, 23, 0.726);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   /* border-radius: 10px; */
+}
+
+/* login button design */
+.alert {
+   text-align: end;
+   /* float: left; */
+}
+
+.form button {
+   background: green;
+   border: none;
+   color: white;
+   padding: 5px 8px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: .5s;
+
+
+}
+
+.form button:hover{
+   transition: .5s all ease;
+   background-color: rgb(1, 86, 1);
+}
+
+/*  */
+
+.text{
+    color:burlywood;
+    padding: 0;
+    margin: 0;
+}
+.font{
+    font-family: 'Baloo Bhaina 2', cursive; 
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social img{
+    width: 20%;
+    margin: 2px 5px;
+    cursor: pointer;
+    transition: .8s;
+}
+.social img:hover{
+    transition: .8s;
+    transform: rotate(180deg);
+}
