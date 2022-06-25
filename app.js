@@ -4,6 +4,7 @@ import contact from './routes/contact.js';
 import login from './routes/login.js';
 import register from './routes/registration.js';
 import blogs from './routes/blog.js';
+import about_ from './routes/about.js';
 import {join} from 'path';
 const app=express();
 // here we use express.static function so that 
@@ -30,6 +31,7 @@ app.use('/contact', contact);
 app.use('/login', login);
 app.use('/registration', register);
 app.use('/blog', blogs);
+app.use('/about', about_);
 
 
 

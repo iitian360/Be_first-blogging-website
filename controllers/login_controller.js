@@ -1,4 +1,4 @@
-import {join} from 'path';
+// import {join} from 'path';
 const myLogin=(req,res)=>{
     // res.sendFile(join(process.cwd(),'view','login.html'));
     res.render('login',{'title':'Login here'});
