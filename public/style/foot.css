@@ -39,6 +39,13 @@
     margin: 3px 5px;
     list-style: none;
 }
+.foot_item hr{
+    border: 1.5px solid gray;
+    background-color: gray;
+    border-radius: 5px;
+    margin-top: 0;
+
+}
 
 .foot_head {
     color: greenyellow;
