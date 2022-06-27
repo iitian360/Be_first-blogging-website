@@ -6,11 +6,16 @@ import register from './routes/registration.js';
 import blogs from './routes/blog.js';
 import about_ from './routes/about.js';
 import {join} from 'path';
+import under_construction from './middleware/uc-middleware.js';
 const app=express();
 // here we use express.static function so that 
 // the data in public folder is to be use statically.
 
 app.use(express.static(join(process.cwd(),'public')));
+// application level middleware
+
+app.use('/about', under_construction);
+app.use('/contact', under_construction);
 
 // we can also use virtual path as given below to make our path unique
 // app.use('/static', express.static(join(process.cwd(),'public')));
