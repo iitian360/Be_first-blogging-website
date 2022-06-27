@@ -50,7 +50,9 @@ body {
 }
 
 .nav_link {
-    margin: 0px 30px;
+    margin: 0px 10px;
+
+   
 
 }
 
@@ -59,6 +61,9 @@ body {
     font-size: 25px;
     color: black;
     transition: .5s;
+    padding-left: 12px;
+    border-left: 2px solid rgb(163, 163, 163);
+    border-left-style:outset;
 }
 
 .nav_link a:hover {
