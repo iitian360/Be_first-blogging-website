@@ -1,0 +1,86 @@
+.c_sec {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    background: url('/images/blog_bg_main.jpg')center center /cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.c_lyr {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgba(32, 3, 147, 0.701);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* text area */
+.c_head {
+    padding: 0;
+    margin: 0;
+    color:pink;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+}
+
+.ctxt {
+    font-size: 20px;
+    font-family: 'Merriweather', serif ;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+.cs_txt{
+    font-family:'Baloo Bhaina 2', cursive ;
+    padding: 0px 5px;
+}
+
+.c_head_2{
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+/*  */
+.c_huk{
+   border-radius: 50%;
+   padding: 4px;
+   /* color: black; */
+   border: 1px solid black;
+   transition: .5s;
+}
+#huk1{
+    color: green;
+}
+#huk1:hover{
+    transition: .5s all ease-out;
+    color: white;
+    background-color: green;
+}
+#huk2{
+    color: orange;
+}
+#huk2:hover{
+    transition: .5s all ease-out;
+    color: white;
+    background-color:orange;
+}
+#huk3{
+    color: brown;
+}
+#huk3:hover{
+    transition: .5s all ease-out;
+    color: white;
+    background-color: brown;
+}
+
+
+/*  */

@@ -1,9 +1,150 @@
 <%- include('./partials/header.ejs') %>
-<%- include('./partials/navbar.ejs') %>
-    <a href="/contact/call">call me</a>
-   
+    <link rel="stylesheet" href="/style/contact.css">
+    <%- include('./partials/navbar.ejs') %>
+
+        <section class="c_sec">
+            <div class="c_lyr">
+                <h1 class="c_head">Contact us</h1>
+                <p class="ctxt">Have any question?<br>or need a help, we are here to help you anyway.</p>
+
+            </div>
+        </section>
+
+        <section class="c_sec_2">
+            <div class="c_social">
+                <div class="c_box">
+                    <h2 class="c_head_2">Get in touch</h2>
+                    <div class="c_touch">
+                        <a href="tel:+919793589037"><i class="fa-solid fa-phone c_huk" id="huk1"></i></a>
+                        <p class="cs_txt"> +919793589037</p>
+                    </div>
+                    <div class="c_touch">
+                        <a href="mailto:sp48840@gmail.com"><i class="fa-solid fa-envelope-open c_huk" id="huk2"></i></a>
+                        <p class="cs_txt"> sp48840@gmail.com</p>
+                    </div>
+                    <div class="c_touch">
+                        <i class="fa-solid fa-location-crosshairs c_huk" id="huk3"></i>
+                        <p class="cs_txt"> location</p>
+                    </div>
+                    <div class="c_media">
+                        <i class="fa-brands fa-facebook-square"></i>
+                        <i class="fa-brands fa-twitter-square"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="c_social">
+                <h2 class="c_head_2">Drop a message</h2>
+                <form action="#" method="post" class="c_form">
+                    <div class="frm_elm">
+                        <label for="name">Name</label>
+                        <input type="name" id="name" autocomplete="off" name="name">
+                    </div>
+                    <div class="frm_elm">
+                        <label for="emai">Email id</label>
+                        <input type="email" id="emai" name="emai" required>
+                    </div>
+                    <div class="frm_msj">
+                        <label for="text">How can we help you?</label>
+                        <textarea type="text" id="text" name="text"></textarea>
+                    </div>
+                    <div class="c_btn_div">
+                    <button type="submit" id="c_btn">Send message</button>
+                    </div>
+                </form>
+            </div>
+
+
+            <style>
+                .c_sec_2 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    margin-top: 10px;
+                }
+
+                .c_social {
+                    display: flex;
+                    width: 30%;
+                    height: 50vh;
+                    margin: 10px 0px;
+                    align-items: center;
+                    justify-content: flex-start;
+                    flex-direction: column;
+                }
+
+                .c_social form {
+                    display: flex;
+                    flex-direction: column;
+                    font-family: 'Baloo Bhaina 2', cursive;
+                }
+
+                .c_touch {
+                    display: flex;
+                    width: auto;
+                    align-items: flex-start;
+                    align-items: center;
+                }
+
+                .c_form {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    flex-direction: row;
+                    width: 100%;
+                }
+
+                .frm_elm,
+                .frm_msj {
+                    width: 60%;
+                    /* background-color: pink; */
+                    display: flex;
+                    margin: 5px 0px;
+                    flex-direction: column;
+                }
+                .frm_elm label,
+                .frm_msj label{
+                    color: darkslategrey;
+                    font-weight:500;
+                }
+
+                .frm_elm input {
+                    background: inherit;
+                    outline: none;
+                    border: none;
+                    border-bottom: 1.5px solid black;
+                    border-color: darkslategray;
+                }
+
+                .frm_msj textarea {
+                    background: inherit;
+                    outline: none;
+                    border: none;
+                    border-bottom: 1.5px solid black;
+
+                }
+                .c_btn_div{
+                    width: 60%;
+                }
+
+                #c_btn{
+                    color: black;
+                    background-color: orange;
+                    border: none;
+                    padding: 6px 8px;
+                    cursor: pointer;
+                    margin: 4px 0px;
+                    float: right; 
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                }
+                #c_btn:hover{
+                    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+                }
+            </style>
+        </section>
 
 
 
-<script src="/javascript/all.js"></script>    
-<%- include('./partials/footer.ejs') %>
+        <script src="/javascript/all.js"></script>
+        <%- include('./partials/footer.ejs') %>
