@@ -17,10 +17,13 @@ body {
 .navbar {
     display: flex;
     z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
     /* align-items: flex-start; */
-    background: white;
+    background: inherit;
     flex-direction: column;
-    box-shadow: rgb(8, 1, 47) 0px 3px 6px, rgb(1, 3, 78) 0px 3px 6px;
+    /* box-shadow: rgb(8, 1, 47) 0px 3px 6px, rgb(1, 3, 78) 0px 3px 6px; */
 
 }
 
@@ -155,11 +158,11 @@ body {
     color: gray;
 }
 /* *********************logo design**************8 */
-.logo_ {
+/* .logo_ {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+} */
 
 .logo_ img {
     width: 20%;
