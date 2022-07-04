@@ -121,75 +121,74 @@
                 </div>
             </div>
         </section>
+        <hr>
+
+        <!-- tag section & trending posts -->
         <section class="sec_3">
             <div class="rc_post ">
                 <h1 class="intro">Trending this week</h1>
                 <div class="rc_content">
                     <div class="rc_item">
                         <div class="rc_mg">
-
+                            <img src="/images/fashion.jpg" alt="fashion">
                         </div>
                         <div class="rc_tag ">
                             <div class="rc_date">
                                 <i class="fa-solid fa-calendar-days"></i>
-                                <p class="date">16 january, 2010</p>
+                                <i class="date">16 january, 2010</i>
                             </div>
-                            <p class="txt_hm txt_rc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
-                                quaerat?
-                            </p>
+                            <h3 class="txt_rc">Throwback To The Good Old Days.
+                            </h3>
                         </div>
                     </div>
                 </div>
                 <div class="rc_content">
                     <div class="rc_item">
                         <div class="rc_mg">
-
+                            <img src="/images/travel.jpg" alt="#">
                         </div>
                         <div class="rc_tag ">
                             <div class="rc_date">
                                 <i class="fa-solid fa-calendar-days"></i>
-                                <p class="date">16 january, 2010</p>
+                                <i class="date">1 may, 2007</i>
                             </div>
-                            <p class="txt_hm txt_rc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
-                                quaerat?
-                            </p>
+                            <h3 class="txt_rc">Things you have to keep in your mind while travelling.
+                            </h3>
                         </div>
                     </div>
                 </div>
                 <div class="rc_content">
                     <div class="rc_item">
                         <div class="rc_mg">
-
+                            <img src="/images/art.jpg" alt="#">
                         </div>
                         <div class="rc_tag ">
                             <div class="rc_date ">
                                 <i class="fa-solid fa-calendar-days"></i>
-                                <p class="date">16 january, 2010</p>
+                                <i class="date">6 july, 2009</i>
                             </div>
-                            <p class="txt_hm txt_rc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
-                                quaerat?
-                            </p>
+                            <h3 class="txt_rc">Workspace Design Trends and Ideas.
+                                
+                            </h3>
                         </div>
                     </div>
                 </div>
                 <div class="rc_content ">
                     <div class="rc_item ">
                         <div class="rc_mg">
-
+                            <img src="/images/education.jpg" alt="#">
                         </div>
                         <div class="rc_tag ">
                             <div class="rc_date">
                                 <i class="fa-solid fa-calendar-days"></i>
-                                <p class="date">16 january, 2010</p>
+                                <i class="date">26 December, 2010</i>
                             </div>
-                            <p class="txt_hm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
-                                quaerat?
-                            </p>
+                            <h3 class="txt_rc">
+                                Why India suffering educational un-uniformity?
+                            </h3>
                         </div>
                     </div>
                 </div>
-                
-               
             </div>
             <div class="other"></div>
             <div class="tag_box">
@@ -211,8 +210,70 @@
                 </div>
             </div>
             <style>
-               
+                .sec_3 {
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                }
 
+                .rc_post {
+                    width: 40%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    margin: 3px 5px;
+                    flex-direction: column;
+                }
+
+                .rc_content {
+                    margin: 8px 5px;
+                    width: 100%;
+                }
+
+                .rc_item {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                }
+
+                .rc_mg {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .rc_mg img {
+                    width: 70%;
+                    border-radius: 10px;
+                    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+                }
+
+
+                .rc_tag {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 100%;
+                }
+
+
+                .rc_date {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    width: 100%;
+                }
+                .date{
+                    color: brown;
+                    margin: 0px 10px;
+                    font-weight: 600;
+                    font-family: 'Baloo 2', cursive;
+                }
             </style>
         </section>
         <%- include('./partials/footer.ejs') %>
