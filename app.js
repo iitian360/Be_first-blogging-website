@@ -7,7 +7,10 @@ import blogs from './routes/blog.js';
 import about_ from './routes/about.js';
 import {join} from 'path';
 import under_construction from './middleware/uc-middleware.js';
+// import connect_DB from './DB/connect_db.js';
+import {blog_data} from './model/blog_intro.js';
 const app=express();
+// const data_url=process.env.data_url||'mongodb://localhost:27017/Befirst_DB'
 // here we use express.static function so that 
 // the data in public folder is to be use statically.
 
@@ -25,6 +28,14 @@ app.use('/about', under_construction);
 // app.use('/css', express.static(join(process.cwd(),'public/css')));
 
 const port=process.env.PORT||3000;
+//** */ connect to data base
+// connect_DB(data_url);
+
+//** */ insert data'//
+// creat_data('art & design','paul benn',false);
+
+//*** */ retrive data in console
+blog_data();
 
 app.set('views','./view');
 

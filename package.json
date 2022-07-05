@@ -13,7 +13,8 @@
   "type": "module",
   "dependencies": {
     "ejs": "^3.1.8",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "mongoose": "^6.4.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
