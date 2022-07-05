@@ -204,76 +204,49 @@
                     <a href="#" class="taglink"><i class="fa-solid fa-tags"></i> Relation</a>
                     <a href="#" class="taglink"><i class="fa-solid fa-tags"></i> Technology</a>
                     <a href="#" class="taglink"><i class="fa-solid fa-tags"></i> Education</a>
-                    <a href="#" class="taglink"><i class="fa-solid fa-tags"></i> Science_</a>
+                    <a href="#" class="taglink"><i class="fa-solid fa-tags"></i> Science</a>
                     <a href="#" class="taglink"><i class="fa-solid fa-tags"></i> Social</a>
                     <a href="#" class="taglink"><i class="fa-solid fa-tags"></i> Family</a>
                 </div>
             </div>
             <style>
-                .sec_3 {
-                    position: relative;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    width: 100%;
+                .other{
+                    width: 30%;
+                    height: 70vh;
+                    background-color: blue;
                 }
+            .tag_box{
+                width: 20%;
+                display: flex;
+                align-items: center;
+                justify-content:center;
+                flex-direction: column;
+            }  
+            .tags{
+                /* border: .3px solid gray; */
+                padding: 4px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                height: 30vh;
+            }  
 
-                .rc_post {
-                    width: 40%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: flex-start;
-                    margin: 3px 5px;
-                    flex-direction: column;
-                }
+            .taglink{
+                text-decoration: none;
+                color: orangered;
+                border: 1px solid brown;
+                padding: 2px;
+                margin: 0px 5px;
+                border-radius: 5px;
+                transition: .5s;
+            }
 
-                .rc_content {
-                    margin: 8px 5px;
-                    width: 100%;
-                }
-
-                .rc_item {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    width: 100%;
-                }
-
-                .rc_mg {
-                    width: 100%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
-
-                .rc_mg img {
-                    width: 70%;
-                    border-radius: 10px;
-                    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
-                }
-
-
-                .rc_tag {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    flex-direction: column;
-                    width: 100%;
-                }
-
-
-                .rc_date {
-                    display: flex;
-                    align-items: center;
-                    justify-content: flex-start;
-                    width: 100%;
-                }
-                .date{
-                    color: brown;
-                    margin: 0px 10px;
-                    font-weight: 600;
-                    font-family: 'Baloo 2', cursive;
-                }
+            .taglink:hover{
+                transition: .5s all ease-in;
+                color: white;
+                background-color: orangered;
+            }
             </style>
         </section>
         <%- include('./partials/footer.ejs') %>

@@ -131,7 +131,7 @@
 
             .post_rv:hover,
             .post:hover {
-                box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+                transform: translateY(-10px);
             }
 
             .post {
@@ -157,6 +157,72 @@
                 width: 100%;
                 transition: .4s;
                 height: 100%;
+            }
+
+            .sec_3 {
+                position: relative;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+                width: 100%;
+                flex-wrap: wrap;
+            }
+
+            .rc_post {
+                width: 40%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                margin: 3px 5px;
+                flex-direction: column;
+            }
+
+            .rc_content {
+                margin: 8px 5px;
+                width: 100%;
+            }
+
+            .rc_item {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+            }
+
+            .rc_mg {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .rc_mg img {
+                width: 70%;
+                border-radius: 10px;
+                box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+            }
+
+
+            .rc_tag {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 100%;
+            }
+
+
+            .rc_date {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                width: 100%;
+            }
+            .date{
+                color: brown;
+                margin: 0px 10px;
+                font-weight: 600;
+                font-family: 'Baloo 2', cursive;
             }
             /* *********************************8 */
            
