@@ -19,7 +19,7 @@ const put_data= async (req,res)=>{
 
         })
         const result= await doc.save();
-        console.log(result);
+        // console.log(result);
         
         res.redirect('/login');
         

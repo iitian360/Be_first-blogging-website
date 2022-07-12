@@ -18,7 +18,7 @@ app.use(express.static(join(process.cwd(),'public')));
 app.use(express.urlencoded({extended:false}));
 // application level middleware
 
-app.use('/about', under_construction);
+// app.use('/about', under_construction);
 // app.use('/contact', under_construction);
 
 // we can also use virtual path as given below to make our path unique
