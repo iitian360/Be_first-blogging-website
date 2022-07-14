@@ -50,8 +50,6 @@ app.use('/registration', register);
 app.use('/blog', blogs);
 app.use('/about', about_);
 
-
-
 app.listen(port,()=>{
     console.log(`the server is running at port: http://localhost:${port}`);
     
