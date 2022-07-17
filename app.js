@@ -1,3 +1,5 @@
+import dotenv from 'dotenv';
+dotenv.config();
 import express from 'express';
 import home from './routes/home.js';
 import contact from './routes/contact.js';
@@ -10,7 +12,7 @@ import under_construction from './middleware/uc-middleware.js';
 import connect_DB from './DB/connect_db.js';
 // import {blog_data} from './model/blog_intro.js';
 const app=express();
-const data_url=process.env.data_url||'mongodb://localhost:27017/Befirst_DB'
+const Data_url=process.env.Data_url
 // here we use express.static function so that 
 // the data in public folder is to be use statically.
 
@@ -30,7 +32,7 @@ app.use(express.urlencoded({extended:false}));
 
 const port=process.env.PORT||3000;
 //** */ connect to data base
-connect_DB(data_url);
+connect_DB(Data_url);
 
 //** */ insert data'//
 // creat_data('art & design','paul benn',false);
